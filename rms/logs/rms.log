@@ -1,0 +1,1338 @@
+2021-10-25 14:58:06,198 [com.ratemanagement.rms.RmsApplicationTests] Starting RmsApplicationTests using Java 11.0.11 on Andre-Ayden with PID 21128 (started by andreayden in C:\Users\andreayden\Ramya\rms) 
+2021-10-25 14:58:06,205 [com.ratemanagement.rms.RmsApplicationTests] No active profile set, falling back to default profiles: default 
+2021-10-25 14:58:14,495 [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-10-25 14:58:14,793 [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 283 ms. Found 1 JPA repository interfaces. 
+2021-10-25 14:58:15,871 [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting... 
+2021-10-25 14:58:20,473 [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed. 
+2021-10-25 14:58:21,369 [org.hibernate.jpa.internal.util.LogHelper] HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-10-25 14:58:22,488 [org.hibernate.Version] HHH000412: Hibernate ORM core version 5.4.32.Final 
+2021-10-25 14:58:25,966 [org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2021-10-25 14:58:27,232 [org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect 
+2021-10-25 14:58:35,004 [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-10-25 14:58:35,023 [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-10-25 14:58:37,146 [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-10-25 14:58:43,726 [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] Exposing 13 endpoint(s) beneath base path '/actuator' 
+2021-10-25 14:58:43,849 [com.ratemanagement.rms.RmsApplicationTests] Started RmsApplicationTests in 38.696 seconds (JVM running for 43.086) 
+2021-10-25 14:58:45,232 [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Closing JPA EntityManagerFactory for persistence unit 'default' 
+2021-10-25 14:58:45,261 [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated... 
+2021-10-25 14:58:45,296 [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed. 
+2021-10-25 15:03:13,300 [com.ratemanagement.rms.RmsApplication] Starting RmsApplication using Java 1.8.0_202 on Andre-Ayden with PID 15904 (C:\Users\andreayden\Ramya\rms\target\classes started by andreayden in C:\Users\andreayden\Ramya\rms) 
+2021-10-25 15:03:13,321 [com.ratemanagement.rms.RmsApplication] No active profile set, falling back to default profiles: default 
+2021-10-25 15:03:13,503 [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2021-10-25 15:03:13,504 [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2021-10-25 15:03:17,136 [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-10-25 15:03:17,345 [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 178 ms. Found 1 JPA repository interfaces. 
+2021-10-25 15:03:20,397 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http) 
+2021-10-25 15:03:20,480 [org.apache.catalina.core.StandardService] Starting service [Tomcat] 
+2021-10-25 15:03:20,481 [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.54] 
+2021-10-25 15:03:20,691 [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext 
+2021-10-25 15:03:20,692 [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 7187 ms 
+2021-10-25 15:03:21,416 [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting... 
+2021-10-25 15:03:23,043 [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed. 
+2021-10-25 15:03:23,670 [org.hibernate.jpa.internal.util.LogHelper] HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-10-25 15:03:24,346 [org.hibernate.Version] HHH000412: Hibernate ORM core version 5.4.32.Final 
+2021-10-25 15:03:25,160 [org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2021-10-25 15:03:26,250 [org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect 
+2021-10-25 15:03:28,423 [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-10-25 15:03:28,455 [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-10-25 15:03:30,153 [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-10-25 15:03:32,827 [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729 
+2021-10-25 15:03:32,844 [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] Exposing 13 endpoint(s) beneath base path '/actuator' 
+2021-10-25 15:03:32,976 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path '' 
+2021-10-25 15:03:33,011 [com.ratemanagement.rms.RmsApplication] Started RmsApplication in 21.609 seconds (JVM running for 24.715) 
+2021-10-25 15:03:52,104 [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021-10-25 15:03:52,105 [org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet' 
+2021-10-25 15:03:52,107 [org.springframework.web.servlet.DispatcherServlet] Completed initialization in 2 ms 
+2021-10-25 15:03:55,582 [org.springdoc.api.AbstractOpenApiResource] Init duration for springdoc-openapi is: 681 ms 
+2021-10-25 16:18:11,545 [org.springframework.boot.devtools.restart.ChangeableUrls] The Class-Path manifest attribute in C:\Users\andreayden\.m2\repository\com\sun\xml\bind\jaxb-core\2.3.0.1\jaxb-core-2.3.0.1.jar referenced one or more files that do not exist: file:/C:/Users/andreayden/.m2/repository/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-api.jar 
+2021-10-25 16:18:11,547 [org.springframework.boot.devtools.restart.ChangeableUrls] The Class-Path manifest attribute in C:\Users\andreayden\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.0.1\jaxb-impl-2.3.0.1.jar referenced one or more files that do not exist: file:/C:/Users/andreayden/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.0.1/jaxb-core.jar 
+2021-10-25 16:18:11,550 [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2021-10-25 16:18:12,100 [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$70c49236] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2021-10-25 16:18:12,124 [org.springframework.context.annotation.AnnotationConfigApplicationContext] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'configurationPropertiesBeans' defined in class path resource [org/springframework/cloud/autoconfigure/ConfigurationPropertiesRebinderAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.cloud.context.properties.ConfigurationPropertiesBeans]: Factory method 'configurationPropertiesBeans' threw exception; nested exception is java.lang.NoClassDefFoundError: org/springframework/boot/context/properties/ConfigurationBeanFactoryMetadata 
+2021-10-25 16:18:12,132 [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. 
+2021-10-25 16:18:12,226 [org.springframework.boot.SpringApplication] Application run failed 
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'configurationPropertiesBeans' defined in class path resource [org/springframework/cloud/autoconfigure/ConfigurationPropertiesRebinderAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.cloud.context.properties.ConfigurationPropertiesBeans]: Factory method 'configurationPropertiesBeans' threw exception; nested exception is java.lang.NoClassDefFoundError: org/springframework/boot/context/properties/ConfigurationBeanFactoryMetadata
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:486)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:270)
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:762)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:567)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338)
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:143)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.bootstrapServiceContext(BootstrapApplicationListener.java:203)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:114)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:71)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:82)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:63)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:117)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:111)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:62)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:374)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:332)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at com.ratemanagement.rms.RmsApplication.main(RmsApplication.java:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.cloud.context.properties.ConfigurationPropertiesBeans]: Factory method 'configurationPropertiesBeans' threw exception; nested exception is java.lang.NoClassDefFoundError: org/springframework/boot/context/properties/ConfigurationBeanFactoryMetadata
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 39 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/springframework/boot/context/properties/ConfigurationBeanFactoryMetadata
+	at org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration.configurationPropertiesBeans(ConfigurationPropertiesRebinderAutoConfiguration.java:56)
+	at org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$70c49236.CGLIB$configurationPropertiesBeans$3(<generated>)
+	at org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$70c49236$$FastClassBySpringCGLIB$$fa80e1a7.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$70c49236.configurationPropertiesBeans(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 40 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.boot.context.properties.ConfigurationBeanFactoryMetadata
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 51 common frames omitted
+2021-10-25 16:18:12,229 [org.springframework.boot.SpringApplication] Application run failed 
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'configurationPropertiesBeans' defined in class path resource [org/springframework/cloud/autoconfigure/ConfigurationPropertiesRebinderAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.cloud.context.properties.ConfigurationPropertiesBeans]: Factory method 'configurationPropertiesBeans' threw exception; nested exception is java.lang.NoClassDefFoundError: org/springframework/boot/context/properties/ConfigurationBeanFactoryMetadata
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:486)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:270)
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:762)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:567)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338)
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:143)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.bootstrapServiceContext(BootstrapApplicationListener.java:203)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:114)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:71)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:82)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:63)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:117)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:111)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:62)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:374)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:332)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at com.ratemanagement.rms.RmsApplication.main(RmsApplication.java:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.cloud.context.properties.ConfigurationPropertiesBeans]: Factory method 'configurationPropertiesBeans' threw exception; nested exception is java.lang.NoClassDefFoundError: org/springframework/boot/context/properties/ConfigurationBeanFactoryMetadata
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 39 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/springframework/boot/context/properties/ConfigurationBeanFactoryMetadata
+	at org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration.configurationPropertiesBeans(ConfigurationPropertiesRebinderAutoConfiguration.java:56)
+	at org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$70c49236.CGLIB$configurationPropertiesBeans$3(<generated>)
+	at org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$70c49236$$FastClassBySpringCGLIB$$fa80e1a7.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$70c49236.configurationPropertiesBeans(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 40 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.boot.context.properties.ConfigurationBeanFactoryMetadata
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 51 common frames omitted
+2021-10-25 16:21:06,044 [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b26d260] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2021-10-25 16:21:06,078 [org.springframework.context.annotation.AnnotationConfigApplicationContext] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'configurationPropertiesBeans' defined in class path resource [org/springframework/cloud/autoconfigure/ConfigurationPropertiesRebinderAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.cloud.context.properties.ConfigurationPropertiesBeans]: Factory method 'configurationPropertiesBeans' threw exception; nested exception is java.lang.NoClassDefFoundError: org/springframework/boot/context/properties/ConfigurationBeanFactoryMetadata 
+2021-10-25 16:21:06,089 [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. 
+2021-10-25 16:21:06,143 [org.springframework.boot.SpringApplication] Application run failed 
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'configurationPropertiesBeans' defined in class path resource [org/springframework/cloud/autoconfigure/ConfigurationPropertiesRebinderAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.cloud.context.properties.ConfigurationPropertiesBeans]: Factory method 'configurationPropertiesBeans' threw exception; nested exception is java.lang.NoClassDefFoundError: org/springframework/boot/context/properties/ConfigurationBeanFactoryMetadata
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:486)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:270)
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:762)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:567)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338)
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:143)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.bootstrapServiceContext(BootstrapApplicationListener.java:203)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:114)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:71)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:82)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:63)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:117)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:111)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:62)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:374)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:332)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:123)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:138)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassBasedTestDescriptor.java:350)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:355)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$7(ClassBasedTestDescriptor.java:350)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:349)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$4(ClassBasedTestDescriptor.java:270)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:269)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$2(ClassBasedTestDescriptor.java:259)
+	at java.base/java.util.Optional.orElseGet(Optional.java:369)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$3(ClassBasedTestDescriptor.java:258)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:101)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:100)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:65)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:111)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:111)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:79)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.cloud.context.properties.ConfigurationPropertiesBeans]: Factory method 'configurationPropertiesBeans' threw exception; nested exception is java.lang.NoClassDefFoundError: org/springframework/boot/context/properties/ConfigurationBeanFactoryMetadata
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 101 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/springframework/boot/context/properties/ConfigurationBeanFactoryMetadata
+	at org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration.configurationPropertiesBeans(ConfigurationPropertiesRebinderAutoConfiguration.java:56)
+	at org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b26d260.CGLIB$configurationPropertiesBeans$2(<generated>)
+	at org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b26d260$$FastClassBySpringCGLIB$$ebc5e7ed.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b26d260.configurationPropertiesBeans(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 102 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.boot.context.properties.ConfigurationBeanFactoryMetadata
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 113 common frames omitted
+2021-10-25 16:21:06,149 [org.springframework.boot.SpringApplication] Application run failed 
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'configurationPropertiesBeans' defined in class path resource [org/springframework/cloud/autoconfigure/ConfigurationPropertiesRebinderAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.cloud.context.properties.ConfigurationPropertiesBeans]: Factory method 'configurationPropertiesBeans' threw exception; nested exception is java.lang.NoClassDefFoundError: org/springframework/boot/context/properties/ConfigurationBeanFactoryMetadata
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:486)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:270)
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:762)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:567)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338)
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:143)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.bootstrapServiceContext(BootstrapApplicationListener.java:203)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:114)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:71)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:82)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:63)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:117)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:111)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:62)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:374)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:332)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:123)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:138)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassBasedTestDescriptor.java:350)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:355)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$7(ClassBasedTestDescriptor.java:350)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:349)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$4(ClassBasedTestDescriptor.java:270)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:269)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$2(ClassBasedTestDescriptor.java:259)
+	at java.base/java.util.Optional.orElseGet(Optional.java:369)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$3(ClassBasedTestDescriptor.java:258)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:101)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:100)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:65)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:111)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:111)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:79)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.cloud.context.properties.ConfigurationPropertiesBeans]: Factory method 'configurationPropertiesBeans' threw exception; nested exception is java.lang.NoClassDefFoundError: org/springframework/boot/context/properties/ConfigurationBeanFactoryMetadata
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 101 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/springframework/boot/context/properties/ConfigurationBeanFactoryMetadata
+	at org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration.configurationPropertiesBeans(ConfigurationPropertiesRebinderAutoConfiguration.java:56)
+	at org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b26d260.CGLIB$configurationPropertiesBeans$2(<generated>)
+	at org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b26d260$$FastClassBySpringCGLIB$$ebc5e7ed.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b26d260.configurationPropertiesBeans(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 102 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.boot.context.properties.ConfigurationBeanFactoryMetadata
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 113 common frames omitted
+2021-10-25 16:21:06,152 [org.springframework.test.context.TestContextManager] Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@1af146] to prepare test instance [com.ratemanagement.rms.RmsApplicationTests@64469d8] 
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:248)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:138)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassBasedTestDescriptor.java:350)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:355)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$7(ClassBasedTestDescriptor.java:350)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:349)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$4(ClassBasedTestDescriptor.java:270)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:269)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$2(ClassBasedTestDescriptor.java:259)
+	at java.base/java.util.Optional.orElseGet(Optional.java:369)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$3(ClassBasedTestDescriptor.java:258)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:101)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:100)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:65)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:111)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:111)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:79)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:220)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:188)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:202)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:181)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:150)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'configurationPropertiesBeans' defined in class path resource [org/springframework/cloud/autoconfigure/ConfigurationPropertiesRebinderAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.cloud.context.properties.ConfigurationPropertiesBeans]: Factory method 'configurationPropertiesBeans' threw exception; nested exception is java.lang.NoClassDefFoundError: org/springframework/boot/context/properties/ConfigurationBeanFactoryMetadata
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:486)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:270)
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:762)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:567)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338)
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:143)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.bootstrapServiceContext(BootstrapApplicationListener.java:203)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:114)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:71)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:82)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:63)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:117)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:111)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:62)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:374)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:332)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:123)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	... 67 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.cloud.context.properties.ConfigurationPropertiesBeans]: Factory method 'configurationPropertiesBeans' threw exception; nested exception is java.lang.NoClassDefFoundError: org/springframework/boot/context/properties/ConfigurationBeanFactoryMetadata
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 101 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/springframework/boot/context/properties/ConfigurationBeanFactoryMetadata
+	at org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration.configurationPropertiesBeans(ConfigurationPropertiesRebinderAutoConfiguration.java:56)
+	at org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b26d260.CGLIB$configurationPropertiesBeans$2(<generated>)
+	at org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b26d260$$FastClassBySpringCGLIB$$ebc5e7ed.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b26d260.configurationPropertiesBeans(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 102 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.boot.context.properties.ConfigurationBeanFactoryMetadata
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 113 common frames omitted
+2021-10-25 16:39:09,584 [org.springframework.boot.devtools.restart.ChangeableUrls] The Class-Path manifest attribute in C:\Users\andreayden\.m2\repository\com\sun\xml\bind\jaxb-core\2.3.0.1\jaxb-core-2.3.0.1.jar referenced one or more files that do not exist: file:/C:/Users/andreayden/.m2/repository/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-api.jar 
+2021-10-25 16:39:09,586 [org.springframework.boot.devtools.restart.ChangeableUrls] The Class-Path manifest attribute in C:\Users\andreayden\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.0.1\jaxb-impl-2.3.0.1.jar referenced one or more files that do not exist: file:/C:/Users/andreayden/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.0.1/jaxb-core.jar 
+2021-10-25 16:39:09,588 [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2021-10-25 16:39:10,023 [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$28389e6f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2021-10-25 16:39:10,047 [org.springframework.context.annotation.AnnotationConfigApplicationContext] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'configurationPropertiesBeans' defined in class path resource [org/springframework/cloud/autoconfigure/ConfigurationPropertiesRebinderAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.cloud.context.properties.ConfigurationPropertiesBeans]: Factory method 'configurationPropertiesBeans' threw exception; nested exception is java.lang.NoClassDefFoundError: org/springframework/boot/context/properties/ConfigurationBeanFactoryMetadata 
+2021-10-25 16:39:10,055 [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. 
+2021-10-25 16:39:10,092 [org.springframework.boot.SpringApplication] Application run failed 
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'configurationPropertiesBeans' defined in class path resource [org/springframework/cloud/autoconfigure/ConfigurationPropertiesRebinderAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.cloud.context.properties.ConfigurationPropertiesBeans]: Factory method 'configurationPropertiesBeans' threw exception; nested exception is java.lang.NoClassDefFoundError: org/springframework/boot/context/properties/ConfigurationBeanFactoryMetadata
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:486)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:270)
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:762)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:567)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338)
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:143)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.bootstrapServiceContext(BootstrapApplicationListener.java:203)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:114)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:71)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:82)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:63)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:117)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:111)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:62)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:374)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:332)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at com.ratemanagement.rms.RmsApplication.main(RmsApplication.java:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.cloud.context.properties.ConfigurationPropertiesBeans]: Factory method 'configurationPropertiesBeans' threw exception; nested exception is java.lang.NoClassDefFoundError: org/springframework/boot/context/properties/ConfigurationBeanFactoryMetadata
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 39 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/springframework/boot/context/properties/ConfigurationBeanFactoryMetadata
+	at org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration.configurationPropertiesBeans(ConfigurationPropertiesRebinderAutoConfiguration.java:56)
+	at org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$28389e6f.CGLIB$configurationPropertiesBeans$1(<generated>)
+	at org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$28389e6f$$FastClassBySpringCGLIB$$489d5b88.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$28389e6f.configurationPropertiesBeans(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 40 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.boot.context.properties.ConfigurationBeanFactoryMetadata
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 51 common frames omitted
+2021-10-25 16:39:10,095 [org.springframework.boot.SpringApplication] Application run failed 
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'configurationPropertiesBeans' defined in class path resource [org/springframework/cloud/autoconfigure/ConfigurationPropertiesRebinderAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.cloud.context.properties.ConfigurationPropertiesBeans]: Factory method 'configurationPropertiesBeans' threw exception; nested exception is java.lang.NoClassDefFoundError: org/springframework/boot/context/properties/ConfigurationBeanFactoryMetadata
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:486)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:270)
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:762)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:567)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338)
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:143)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.bootstrapServiceContext(BootstrapApplicationListener.java:203)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:114)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:71)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:82)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:63)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:117)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:111)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:62)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:374)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:332)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at com.ratemanagement.rms.RmsApplication.main(RmsApplication.java:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.cloud.context.properties.ConfigurationPropertiesBeans]: Factory method 'configurationPropertiesBeans' threw exception; nested exception is java.lang.NoClassDefFoundError: org/springframework/boot/context/properties/ConfigurationBeanFactoryMetadata
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 39 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/springframework/boot/context/properties/ConfigurationBeanFactoryMetadata
+	at org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration.configurationPropertiesBeans(ConfigurationPropertiesRebinderAutoConfiguration.java:56)
+	at org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$28389e6f.CGLIB$configurationPropertiesBeans$1(<generated>)
+	at org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$28389e6f$$FastClassBySpringCGLIB$$489d5b88.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$28389e6f.configurationPropertiesBeans(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 40 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.boot.context.properties.ConfigurationBeanFactoryMetadata
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 51 common frames omitted
+2021-10-25 16:42:07,353 [org.springframework.boot.devtools.restart.ChangeableUrls] The Class-Path manifest attribute in C:\Users\andreayden\.m2\repository\com\sun\xml\bind\jaxb-core\2.3.0.1\jaxb-core-2.3.0.1.jar referenced one or more files that do not exist: file:/C:/Users/andreayden/.m2/repository/com/sun/xml/bind/jaxb-core/2.3.0.1/jaxb-api.jar 
+2021-10-25 16:42:07,358 [org.springframework.boot.devtools.restart.ChangeableUrls] The Class-Path manifest attribute in C:\Users\andreayden\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.0.1\jaxb-impl-2.3.0.1.jar referenced one or more files that do not exist: file:/C:/Users/andreayden/.m2/repository/com/sun/xml/bind/jaxb-impl/2.3.0.1/jaxb-core.jar 
+2021-10-25 16:42:07,361 [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2021-10-25 16:42:08,076 [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$a874699b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+2021-10-25 16:42:08,111 [org.springframework.context.annotation.AnnotationConfigApplicationContext] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'configurationPropertiesBeans' defined in class path resource [org/springframework/cloud/autoconfigure/ConfigurationPropertiesRebinderAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.cloud.context.properties.ConfigurationPropertiesBeans]: Factory method 'configurationPropertiesBeans' threw exception; nested exception is java.lang.NoClassDefFoundError: org/springframework/boot/context/properties/ConfigurationBeanFactoryMetadata 
+2021-10-25 16:42:08,125 [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener] 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. 
+2021-10-25 16:42:08,190 [org.springframework.boot.SpringApplication] Application run failed 
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'configurationPropertiesBeans' defined in class path resource [org/springframework/cloud/autoconfigure/ConfigurationPropertiesRebinderAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.cloud.context.properties.ConfigurationPropertiesBeans]: Factory method 'configurationPropertiesBeans' threw exception; nested exception is java.lang.NoClassDefFoundError: org/springframework/boot/context/properties/ConfigurationBeanFactoryMetadata
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:486)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:270)
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:762)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:567)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338)
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:143)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.bootstrapServiceContext(BootstrapApplicationListener.java:203)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:114)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:71)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:82)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:63)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:117)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:111)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:62)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:374)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:332)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at com.ratemanagement.rms.RmsApplication.main(RmsApplication.java:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.cloud.context.properties.ConfigurationPropertiesBeans]: Factory method 'configurationPropertiesBeans' threw exception; nested exception is java.lang.NoClassDefFoundError: org/springframework/boot/context/properties/ConfigurationBeanFactoryMetadata
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 39 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/springframework/boot/context/properties/ConfigurationBeanFactoryMetadata
+	at org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration.configurationPropertiesBeans(ConfigurationPropertiesRebinderAutoConfiguration.java:56)
+	at org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$a874699b.CGLIB$configurationPropertiesBeans$3(<generated>)
+	at org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$a874699b$$FastClassBySpringCGLIB$$618d9b01.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$a874699b.configurationPropertiesBeans(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 40 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.boot.context.properties.ConfigurationBeanFactoryMetadata
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 51 common frames omitted
+2021-10-25 16:42:08,196 [org.springframework.boot.SpringApplication] Application run failed 
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'configurationPropertiesBeans' defined in class path resource [org/springframework/cloud/autoconfigure/ConfigurationPropertiesRebinderAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.cloud.context.properties.ConfigurationPropertiesBeans]: Factory method 'configurationPropertiesBeans' threw exception; nested exception is java.lang.NoClassDefFoundError: org/springframework/boot/context/properties/ConfigurationBeanFactoryMetadata
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:658)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:486)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:270)
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:762)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:567)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:434)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:338)
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:143)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.bootstrapServiceContext(BootstrapApplicationListener.java:203)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:114)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:71)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:82)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:63)
+	at java.util.ArrayList.forEach(ArrayList.java:1257)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:117)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:111)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:62)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:374)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:332)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1343)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1332)
+	at com.ratemanagement.rms.RmsApplication.main(RmsApplication.java:18)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.springframework.cloud.context.properties.ConfigurationPropertiesBeans]: Factory method 'configurationPropertiesBeans' threw exception; nested exception is java.lang.NoClassDefFoundError: org/springframework/boot/context/properties/ConfigurationBeanFactoryMetadata
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	... 39 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/springframework/boot/context/properties/ConfigurationBeanFactoryMetadata
+	at org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration.configurationPropertiesBeans(ConfigurationPropertiesRebinderAutoConfiguration.java:56)
+	at org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$a874699b.CGLIB$configurationPropertiesBeans$3(<generated>)
+	at org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$a874699b$$FastClassBySpringCGLIB$$618d9b01.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$a874699b.configurationPropertiesBeans(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	... 40 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.boot.context.properties.ConfigurationBeanFactoryMetadata
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:382)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 51 common frames omitted
+2021-10-25 16:46:10,276 [com.ratemanagement.rms.RmsApplicationTests] Starting RmsApplicationTests using Java 11.0.11 on Andre-Ayden with PID 21092 (started by andreayden in C:\Users\andreayden\Ramya\rms) 
+2021-10-25 16:46:10,283 [com.ratemanagement.rms.RmsApplicationTests] No active profile set, falling back to default profiles: default 
+2021-10-25 16:46:12,695 [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-10-25 16:46:12,839 [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 126 ms. Found 1 JPA repository interfaces. 
+2021-10-25 16:46:13,934 [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting... 
+2021-10-25 16:46:16,158 [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed. 
+2021-10-25 16:46:16,685 [org.hibernate.jpa.internal.util.LogHelper] HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-10-25 16:46:16,858 [org.hibernate.Version] HHH000412: Hibernate ORM core version 5.4.32.Final 
+2021-10-25 16:46:17,210 [org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2021-10-25 16:46:17,668 [org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect 
+2021-10-25 16:46:19,395 [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-10-25 16:46:19,428 [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-10-25 16:46:21,466 [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-10-25 16:46:26,289 [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] Exposing 13 endpoint(s) beneath base path '/actuator' 
+2021-10-25 16:46:26,452 [com.ratemanagement.rms.RmsApplicationTests] Started RmsApplicationTests in 16.96 seconds (JVM running for 18.716) 
+2021-10-25 16:46:27,268 [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Closing JPA EntityManagerFactory for persistence unit 'default' 
+2021-10-25 16:46:27,296 [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown initiated... 
+2021-10-25 16:46:27,335 [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Shutdown completed. 
+2021-10-25 16:46:54,362 [com.ratemanagement.rms.RmsApplication] Starting RmsApplication using Java 1.8.0_202 on Andre-Ayden with PID 11948 (C:\Users\andreayden\Ramya\rms\target\classes started by andreayden in C:\Users\andreayden\Ramya\rms) 
+2021-10-25 16:46:54,365 [com.ratemanagement.rms.RmsApplication] No active profile set, falling back to default profiles: default 
+2021-10-25 16:46:54,620 [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2021-10-25 16:46:54,621 [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2021-10-25 16:46:57,258 [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-10-25 16:46:57,386 [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 103 ms. Found 1 JPA repository interfaces. 
+2021-10-25 16:46:59,379 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http) 
+2021-10-25 16:46:59,407 [org.apache.catalina.core.StandardService] Starting service [Tomcat] 
+2021-10-25 16:46:59,408 [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.54] 
+2021-10-25 16:46:59,729 [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext 
+2021-10-25 16:46:59,730 [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 5107 ms 
+2021-10-25 16:47:00,215 [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting... 
+2021-10-25 16:47:01,521 [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed. 
+2021-10-25 16:47:01,827 [org.hibernate.jpa.internal.util.LogHelper] HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-10-25 16:47:01,978 [org.hibernate.Version] HHH000412: Hibernate ORM core version 5.4.32.Final 
+2021-10-25 16:47:02,364 [org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2021-10-25 16:47:02,671 [org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect 
+2021-10-25 16:47:04,076 [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-10-25 16:47:04,098 [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-10-25 16:47:05,447 [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-10-25 16:47:07,974 [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729 
+2021-10-25 16:47:07,987 [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] Exposing 13 endpoint(s) beneath base path '/actuator' 
+2021-10-25 16:47:08,396 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path '' 
+2021-10-25 16:47:08,445 [com.ratemanagement.rms.RmsApplication] Started RmsApplication in 15.559 seconds (JVM running for 17.247) 
+2021-10-25 16:47:34,680 [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021-10-25 16:47:34,680 [org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet' 
+2021-10-25 16:47:34,682 [org.springframework.web.servlet.DispatcherServlet] Completed initialization in 1 ms 
+2021-10-25 16:47:35,979 [org.springdoc.api.AbstractOpenApiResource] Init duration for springdoc-openapi is: 400 ms 
+2021-10-25 16:57:06,027 [com.ratemanagement.rms.RmsApplication] Starting RmsApplication using Java 1.8.0_202 on Andre-Ayden with PID 22436 (C:\Users\andreayden\Ramya\rms\target\classes started by andreayden in C:\Users\andreayden\Ramya\rms) 
+2021-10-25 16:57:06,029 [com.ratemanagement.rms.RmsApplication] No active profile set, falling back to default profiles: default 
+2021-10-25 16:57:06,258 [com.okta.spring.boot.oauth.env.OktaEnvironmentPostProcessorApplicationListener] Your Okta Issuer URL is missing. You can copy your domain from the Okta Developer Console. Follow these instructions to find it: https://bit.ly/finding-okta-domain
+To fix this add the `okta.oauth2.issuer` property to your application environments. 
+2021-10-25 16:57:06,264 [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2021-10-25 16:57:06,264 [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2021-10-25 16:57:09,094 [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-10-25 16:57:09,269 [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 149 ms. Found 1 JPA repository interfaces. 
+2021-10-25 16:57:11,683 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http) 
+2021-10-25 16:57:11,708 [org.apache.catalina.core.StandardService] Starting service [Tomcat] 
+2021-10-25 16:57:11,709 [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.54] 
+2021-10-25 16:57:11,945 [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext 
+2021-10-25 16:57:11,946 [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 5680 ms 
+2021-10-25 16:57:12,492 [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting... 
+2021-10-25 16:57:13,938 [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed. 
+2021-10-25 16:57:14,339 [org.hibernate.jpa.internal.util.LogHelper] HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-10-25 16:57:14,532 [org.hibernate.Version] HHH000412: Hibernate ORM core version 5.4.32.Final 
+2021-10-25 16:57:14,890 [org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2021-10-25 16:57:15,349 [org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect 
+2021-10-25 16:57:16,966 [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-10-25 16:57:16,995 [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-10-25 16:57:18,411 [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-10-25 16:57:20,520 [org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration] 
+
+Using generated security password: 23174375-4349-49ad-9130-bdd3b7e74bf5
+ 
+2021-10-25 16:57:20,822 [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] Exposing 13 endpoint(s) beneath base path '/actuator' 
+2021-10-25 16:57:20,865 [org.springframework.security.web.DefaultSecurityFilterChain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@b3598f8, org.springframework.security.web.context.SecurityContextPersistenceFilter@21a9b1f7, org.springframework.security.web.header.HeaderWriterFilter@198df143, org.springframework.web.filter.CorsFilter@4c094d9b, org.springframework.security.web.csrf.CsrfFilter@593f4578, org.springframework.security.web.authentication.logout.LogoutFilter@71b67c68, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@72c7382d, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@1c0330ae, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@65dde714, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@738b5ed0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6db085ee, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1ca0fe28, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@376678f9, org.springframework.security.web.session.SessionManagementFilter@1486ebf8, org.springframework.security.web.access.ExceptionTranslationFilter@4e2162ad, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5c7e5a47] 
+2021-10-25 16:57:21,091 [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729 
+2021-10-25 16:57:21,182 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path '' 
+2021-10-25 16:57:21,228 [com.ratemanagement.rms.RmsApplication] Started RmsApplication in 16.441 seconds (JVM running for 17.871) 
+2021-10-25 16:58:07,647 [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021-10-25 16:58:07,647 [org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet' 
+2021-10-25 16:58:07,649 [org.springframework.web.servlet.DispatcherServlet] Completed initialization in 1 ms 
+2021-10-25 17:01:52,193 [com.ratemanagement.rms.RmsApplication] Starting RmsApplication using Java 1.8.0_202 on Andre-Ayden with PID 10744 (C:\Users\andreayden\Ramya\rms\target\classes started by andreayden in C:\Users\andreayden\Ramya\rms) 
+2021-10-25 17:01:52,196 [com.ratemanagement.rms.RmsApplication] No active profile set, falling back to default profiles: default 
+2021-10-25 17:01:52,398 [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2021-10-25 17:01:52,399 [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2021-10-25 17:01:54,732 [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-10-25 17:01:54,851 [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 100 ms. Found 1 JPA repository interfaces. 
+2021-10-25 17:01:56,716 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http) 
+2021-10-25 17:01:56,736 [org.apache.catalina.core.StandardService] Starting service [Tomcat] 
+2021-10-25 17:01:56,736 [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.54] 
+2021-10-25 17:01:56,918 [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext 
+2021-10-25 17:01:56,919 [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 4518 ms 
+2021-10-25 17:01:57,360 [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting... 
+2021-10-25 17:01:58,408 [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed. 
+2021-10-25 17:01:58,681 [org.hibernate.jpa.internal.util.LogHelper] HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-10-25 17:01:58,817 [org.hibernate.Version] HHH000412: Hibernate ORM core version 5.4.32.Final 
+2021-10-25 17:01:59,109 [org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2021-10-25 17:01:59,426 [org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect 
+2021-10-25 17:02:00,970 [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-10-25 17:02:00,993 [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-10-25 17:02:02,487 [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-10-25 17:02:06,683 [org.springframework.security.web.DefaultSecurityFilterChain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@11adf88d, org.springframework.security.web.context.SecurityContextPersistenceFilter@4e61930e, org.springframework.security.web.header.HeaderWriterFilter@747e562e, org.springframework.security.web.csrf.CsrfFilter@5def4884, org.springframework.security.web.authentication.logout.LogoutFilter@103e7bcc, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@224d5015, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@4a854dc8, org.springframework.security.oauth2.client.web.OAuth2LoginAuthenticationFilter@19c9e3b0, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@50a4644f, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5e56f229, org.springframework.security.oauth2.server.resource.web.BearerTokenAuthenticationFilter@278da1e4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@37e60c96, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@8e65a80, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2327882f, org.springframework.security.oauth2.client.web.OAuth2AuthorizationCodeGrantFilter@456fdd88, org.springframework.security.web.session.SessionManagementFilter@1b65f87b, org.springframework.security.web.access.ExceptionTranslationFilter@2037d2b3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@14c9e883] 
+2021-10-25 17:02:07,447 [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729 
+2021-10-25 17:02:07,467 [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] Exposing 13 endpoint(s) beneath base path '/actuator' 
+2021-10-25 17:02:07,579 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path '' 
+2021-10-25 17:02:07,611 [com.ratemanagement.rms.RmsApplication] Started RmsApplication in 16.471 seconds (JVM running for 17.589) 
+2021-10-25 17:02:15,271 [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021-10-25 17:02:15,271 [org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet' 
+2021-10-25 17:02:15,273 [org.springframework.web.servlet.DispatcherServlet] Completed initialization in 2 ms 
+2021-10-25 17:07:33,809 [com.ratemanagement.rms.RmsApplication] Starting RmsApplication using Java 1.8.0_202 on Andre-Ayden with PID 22728 (C:\Users\andreayden\Ramya\rms\target\classes started by andreayden in C:\Users\andreayden\Ramya\rms) 
+2021-10-25 17:07:33,811 [com.ratemanagement.rms.RmsApplication] No active profile set, falling back to default profiles: default 
+2021-10-25 17:07:33,959 [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2021-10-25 17:07:33,960 [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2021-10-25 17:07:36,460 [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-10-25 17:07:36,578 [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 95 ms. Found 1 JPA repository interfaces. 
+2021-10-25 17:07:38,433 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http) 
+2021-10-25 17:07:38,453 [org.apache.catalina.core.StandardService] Starting service [Tomcat] 
+2021-10-25 17:07:38,454 [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.54] 
+2021-10-25 17:07:38,628 [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext 
+2021-10-25 17:07:38,629 [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 4667 ms 
+2021-10-25 17:07:39,049 [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting... 
+2021-10-25 17:07:40,126 [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed. 
+2021-10-25 17:07:40,386 [org.hibernate.jpa.internal.util.LogHelper] HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-10-25 17:07:40,501 [org.hibernate.Version] HHH000412: Hibernate ORM core version 5.4.32.Final 
+2021-10-25 17:07:40,741 [org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2021-10-25 17:07:41,000 [org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect 
+2021-10-25 17:07:42,024 [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-10-25 17:07:42,041 [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-10-25 17:07:43,062 [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-10-25 17:07:47,392 [org.springframework.security.web.DefaultSecurityFilterChain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@47520e8c, org.springframework.security.web.context.SecurityContextPersistenceFilter@5a1a971c, org.springframework.security.web.header.HeaderWriterFilter@6e92fd13, org.springframework.security.web.csrf.CsrfFilter@3c0401b6, org.springframework.security.web.authentication.logout.LogoutFilter@62c2be0c, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@2897d9ef, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@765b3ef0, org.springframework.security.oauth2.client.web.OAuth2LoginAuthenticationFilter@4bcc1668, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@5cbacbd2, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@3bef0d92, org.springframework.security.oauth2.server.resource.web.BearerTokenAuthenticationFilter@54f51d73, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@349b5df8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@21731a5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@c84cd79, org.springframework.security.oauth2.client.web.OAuth2AuthorizationCodeGrantFilter@f0edfb1, org.springframework.security.web.session.SessionManagementFilter@4f711c42, org.springframework.security.web.access.ExceptionTranslationFilter@2d402085, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7c51682a] 
+2021-10-25 17:07:48,405 [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729 
+2021-10-25 17:07:48,429 [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] Exposing 13 endpoint(s) beneath base path '/actuator' 
+2021-10-25 17:07:48,663 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path '' 
+2021-10-25 17:07:48,735 [com.ratemanagement.rms.RmsApplication] Started RmsApplication in 15.934 seconds (JVM running for 17.011) 
+2021-10-25 17:17:32,303 [com.ratemanagement.rms.RmsApplication] Starting RmsApplication using Java 1.8.0_202 on Andre-Ayden with PID 22520 (C:\Users\andreayden\Ramya\rms\target\classes started by andreayden in C:\Users\andreayden\Ramya\rms) 
+2021-10-25 17:17:32,306 [com.ratemanagement.rms.RmsApplication] No active profile set, falling back to default profiles: default 
+2021-10-25 17:17:32,464 [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2021-10-25 17:17:32,465 [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2021-10-25 17:17:34,680 [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-10-25 17:17:34,785 [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 85 ms. Found 1 JPA repository interfaces. 
+2021-10-25 17:17:36,782 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http) 
+2021-10-25 17:17:36,801 [org.apache.catalina.core.StandardService] Starting service [Tomcat] 
+2021-10-25 17:17:36,801 [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.54] 
+2021-10-25 17:17:36,994 [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext 
+2021-10-25 17:17:36,995 [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 4529 ms 
+2021-10-25 17:17:37,426 [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting... 
+2021-10-25 17:17:38,477 [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed. 
+2021-10-25 17:17:38,712 [org.hibernate.jpa.internal.util.LogHelper] HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-10-25 17:17:38,847 [org.hibernate.Version] HHH000412: Hibernate ORM core version 5.4.32.Final 
+2021-10-25 17:17:39,126 [org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2021-10-25 17:17:39,476 [org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect 
+2021-10-25 17:17:40,738 [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-10-25 17:17:40,761 [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-10-25 17:17:41,972 [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-10-25 17:17:46,759 [org.springframework.security.web.DefaultSecurityFilterChain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3e00dc7b, org.springframework.security.web.context.SecurityContextPersistenceFilter@6de06356, org.springframework.security.web.header.HeaderWriterFilter@75878de0, org.springframework.security.web.csrf.CsrfFilter@39385bd8, org.springframework.security.web.authentication.logout.LogoutFilter@728450f2, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@270760d0, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@261996ad, org.springframework.security.oauth2.client.web.OAuth2LoginAuthenticationFilter@78f3a163, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@f3856b4, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@2ca28fa0, org.springframework.security.oauth2.server.resource.web.BearerTokenAuthenticationFilter@1298ac15, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@18d18df4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@48ffc54a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5b8c3e82, org.springframework.security.oauth2.client.web.OAuth2AuthorizationCodeGrantFilter@4a868374, org.springframework.security.web.session.SessionManagementFilter@6b14374a, org.springframework.security.web.access.ExceptionTranslationFilter@4e787351, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@183068cb] 
+2021-10-25 17:17:47,483 [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729 
+2021-10-25 17:17:47,503 [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] Exposing 13 endpoint(s) beneath base path '/actuator' 
+2021-10-25 17:17:47,626 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path '' 
+2021-10-25 17:17:47,665 [com.ratemanagement.rms.RmsApplication] Started RmsApplication in 16.41 seconds (JVM running for 17.582) 
+2021-10-25 17:18:13,096 [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021-10-25 17:18:13,097 [org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet' 
+2021-10-25 17:18:13,099 [org.springframework.web.servlet.DispatcherServlet] Completed initialization in 2 ms 
+2021-10-25 17:32:10,533 [com.ratemanagement.rms.RmsApplication] Starting RmsApplication using Java 1.8.0_202 on Andre-Ayden with PID 22452 (C:\Users\andreayden\Ramya\rms\target\classes started by andreayden in C:\Users\andreayden\Ramya\rms) 
+2021-10-25 17:32:10,535 [com.ratemanagement.rms.RmsApplication] No active profile set, falling back to default profiles: default 
+2021-10-25 17:32:10,688 [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2021-10-25 17:32:10,688 [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2021-10-25 17:32:13,064 [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-10-25 17:32:13,168 [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 85 ms. Found 1 JPA repository interfaces. 
+2021-10-25 17:32:15,012 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http) 
+2021-10-25 17:32:15,031 [org.apache.catalina.core.StandardService] Starting service [Tomcat] 
+2021-10-25 17:32:15,032 [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.54] 
+2021-10-25 17:32:15,247 [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext 
+2021-10-25 17:32:15,247 [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 4558 ms 
+2021-10-25 17:32:15,671 [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting... 
+2021-10-25 17:32:16,698 [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed. 
+2021-10-25 17:32:16,972 [org.hibernate.jpa.internal.util.LogHelper] HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-10-25 17:32:17,089 [org.hibernate.Version] HHH000412: Hibernate ORM core version 5.4.32.Final 
+2021-10-25 17:32:17,337 [org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2021-10-25 17:32:17,585 [org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect 
+2021-10-25 17:32:18,624 [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-10-25 17:32:18,641 [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-10-25 17:32:19,616 [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-10-25 17:32:22,758 [org.springframework.security.web.DefaultSecurityFilterChain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@694e7904, org.springframework.security.web.context.SecurityContextPersistenceFilter@1116b197, org.springframework.security.web.header.HeaderWriterFilter@45dad80d, org.springframework.security.web.csrf.CsrfFilter@6258eb3e, org.springframework.security.web.authentication.logout.LogoutFilter@3a18d5cc, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@1abd2600, org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter@6094c9bf, org.springframework.security.oauth2.client.web.OAuth2LoginAuthenticationFilter@2b97ed67, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@631eb4ed, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@71bd2176, org.springframework.security.oauth2.server.resource.web.BearerTokenAuthenticationFilter@62b0f941, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@70e688d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3739611a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@647460fa, org.springframework.security.oauth2.client.web.OAuth2AuthorizationCodeGrantFilter@425ab575, org.springframework.security.web.session.SessionManagementFilter@1b68a5e5, org.springframework.security.web.access.ExceptionTranslationFilter@95b0e58, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@34b9b7f4] 
+2021-10-25 17:32:23,363 [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729 
+2021-10-25 17:32:23,376 [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] Exposing 13 endpoint(s) beneath base path '/actuator' 
+2021-10-25 17:32:23,458 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path '' 
+2021-10-25 17:32:23,485 [com.ratemanagement.rms.RmsApplication] Started RmsApplication in 13.894 seconds (JVM running for 15.011) 
+2021-10-25 17:32:52,028 [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021-10-25 17:32:52,028 [org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet' 
+2021-10-25 17:32:52,030 [org.springframework.web.servlet.DispatcherServlet] Completed initialization in 1 ms 
+2021-10-25 17:43:41,994 [com.ratemanagement.rms.RmsApplication] Starting RmsApplication using Java 1.8.0_202 on Andre-Ayden with PID 22040 (C:\Users\andreayden\Ramya\rms\target\classes started by andreayden in C:\Users\andreayden\Ramya\rms) 
+2021-10-25 17:43:41,997 [com.ratemanagement.rms.RmsApplication] No active profile set, falling back to default profiles: default 
+2021-10-25 17:43:42,216 [com.okta.spring.boot.oauth.env.OktaEnvironmentPostProcessorApplicationListener] Your Okta Issuer URL is missing. You can copy your domain from the Okta Developer Console. Follow these instructions to find it: https://bit.ly/finding-okta-domain
+To fix this add the `okta.oauth2.issuer` property to your application environments. 
+2021-10-25 17:43:42,218 [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2021-10-25 17:43:42,219 [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2021-10-25 17:43:45,224 [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-10-25 17:43:45,414 [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 160 ms. Found 1 JPA repository interfaces. 
+2021-10-25 17:43:48,829 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http) 
+2021-10-25 17:43:48,870 [org.apache.catalina.core.StandardService] Starting service [Tomcat] 
+2021-10-25 17:43:48,871 [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.54] 
+2021-10-25 17:43:49,255 [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext 
+2021-10-25 17:43:49,256 [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 7036 ms 
+2021-10-25 17:43:50,037 [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting... 
+2021-10-25 17:43:51,817 [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed. 
+2021-10-25 17:43:52,310 [org.hibernate.jpa.internal.util.LogHelper] HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-10-25 17:43:52,499 [org.hibernate.Version] HHH000412: Hibernate ORM core version 5.4.32.Final 
+2021-10-25 17:43:52,822 [org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2021-10-25 17:43:53,162 [org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect 
+2021-10-25 17:43:54,603 [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-10-25 17:43:54,634 [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-10-25 17:43:55,984 [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-10-25 17:43:58,269 [org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration] 
+
+Using generated security password: 3fd1ff4f-45dc-495c-9e5f-5e99bd398f7a
+ 
+2021-10-25 17:43:58,548 [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] Exposing 13 endpoint(s) beneath base path '/actuator' 
+2021-10-25 17:43:58,601 [org.springframework.security.web.DefaultSecurityFilterChain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@63c43d9b, org.springframework.security.web.context.SecurityContextPersistenceFilter@4d9e8de6, org.springframework.security.web.header.HeaderWriterFilter@2a28c1a7, org.springframework.web.filter.CorsFilter@1c3d740c, org.springframework.security.web.csrf.CsrfFilter@73bcb2ce, org.springframework.security.web.authentication.logout.LogoutFilter@6f9d4b9a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5104e646, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@321585cb, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@189bdcb, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1e707b23, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@ba45c92, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3173fa3a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@615f86de, org.springframework.security.web.session.SessionManagementFilter@1d76bfca, org.springframework.security.web.access.ExceptionTranslationFilter@9d5797f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@565d1da6] 
+2021-10-25 17:43:58,795 [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729 
+2021-10-25 17:43:58,876 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path '' 
+2021-10-25 17:43:58,909 [com.ratemanagement.rms.RmsApplication] Started RmsApplication in 18.272 seconds (JVM running for 19.861) 
+2021-10-25 17:44:29,636 [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021-10-25 17:44:29,636 [org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet' 
+2021-10-25 17:44:29,638 [org.springframework.web.servlet.DispatcherServlet] Completed initialization in 2 ms 
+2021-10-25 17:45:24,922 [com.ratemanagement.rms.RmsApplication] Starting RmsApplication using Java 1.8.0_202 on Andre-Ayden with PID 5224 (C:\Users\andreayden\Ramya\rms\target\classes started by andreayden in C:\Users\andreayden\Ramya\rms) 
+2021-10-25 17:45:24,924 [com.ratemanagement.rms.RmsApplication] No active profile set, falling back to default profiles: default 
+2021-10-25 17:45:25,129 [com.okta.spring.boot.oauth.env.OktaEnvironmentPostProcessorApplicationListener] Your Okta Issuer URL is missing. You can copy your domain from the Okta Developer Console. Follow these instructions to find it: https://bit.ly/finding-okta-domain
+To fix this add the `okta.oauth2.issuer` property to your application environments. 
+2021-10-25 17:45:25,131 [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2021-10-25 17:45:25,131 [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2021-10-25 17:45:27,513 [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-10-25 17:45:27,649 [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 119 ms. Found 1 JPA repository interfaces. 
+2021-10-25 17:45:29,736 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http) 
+2021-10-25 17:45:29,759 [org.apache.catalina.core.StandardService] Starting service [Tomcat] 
+2021-10-25 17:45:29,760 [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.54] 
+2021-10-25 17:45:30,020 [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext 
+2021-10-25 17:45:30,021 [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 4888 ms 
+2021-10-25 17:45:30,554 [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting... 
+2021-10-25 17:45:31,987 [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed. 
+2021-10-25 17:45:32,375 [org.hibernate.jpa.internal.util.LogHelper] HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-10-25 17:45:32,543 [org.hibernate.Version] HHH000412: Hibernate ORM core version 5.4.32.Final 
+2021-10-25 17:45:32,927 [org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2021-10-25 17:45:33,266 [org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect 
+2021-10-25 17:45:34,637 [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-10-25 17:45:34,660 [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-10-25 17:45:35,976 [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-10-25 17:45:38,451 [org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration] 
+
+Using generated security password: a92527b1-91a1-475f-acce-8257fcd83910
+ 
+2021-10-25 17:45:38,724 [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] Exposing 13 endpoint(s) beneath base path '/actuator' 
+2021-10-25 17:45:38,770 [org.springframework.security.web.DefaultSecurityFilterChain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@74492e9, org.springframework.security.web.context.SecurityContextPersistenceFilter@94403ef, org.springframework.security.web.header.HeaderWriterFilter@6dd0ec8d, org.springframework.web.filter.CorsFilter@42c9b21f, org.springframework.security.web.csrf.CsrfFilter@20dbd4b3, org.springframework.security.web.authentication.logout.LogoutFilter@722a71b7, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2b81649b, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@27ae298d, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@4521b0e9, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2ec5255a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@54893b60, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6a9e2a6c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3e536a46, org.springframework.security.web.session.SessionManagementFilter@5a41c354, org.springframework.security.web.access.ExceptionTranslationFilter@2d365e3b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@61651a31] 
+2021-10-25 17:45:38,959 [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729 
+2021-10-25 17:45:39,043 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path '' 
+2021-10-25 17:45:39,081 [com.ratemanagement.rms.RmsApplication] Started RmsApplication in 15.338 seconds (JVM running for 16.84) 
+2021-10-25 17:46:15,103 [com.ratemanagement.rms.RmsApplication] Starting RmsApplication using Java 1.8.0_202 on Andre-Ayden with PID 11588 (C:\Users\andreayden\Ramya\rms\target\classes started by andreayden in C:\Users\andreayden\Ramya\rms) 
+2021-10-25 17:46:15,107 [com.ratemanagement.rms.RmsApplication] No active profile set, falling back to default profiles: default 
+2021-10-25 17:46:15,349 [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2021-10-25 17:46:15,351 [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2021-10-25 17:46:17,880 [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-10-25 17:46:18,023 [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 123 ms. Found 1 JPA repository interfaces. 
+2021-10-25 17:46:20,286 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http) 
+2021-10-25 17:46:20,312 [org.apache.catalina.core.StandardService] Starting service [Tomcat] 
+2021-10-25 17:46:20,313 [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.54] 
+2021-10-25 17:46:20,573 [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext 
+2021-10-25 17:46:20,574 [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 5221 ms 
+2021-10-25 17:46:21,083 [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting... 
+2021-10-25 17:46:22,541 [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed. 
+2021-10-25 17:46:22,914 [org.hibernate.jpa.internal.util.LogHelper] HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-10-25 17:46:23,087 [org.hibernate.Version] HHH000412: Hibernate ORM core version 5.4.32.Final 
+2021-10-25 17:46:23,411 [org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2021-10-25 17:46:23,729 [org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect 
+2021-10-25 17:46:25,027 [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-10-25 17:46:25,049 [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-10-25 17:46:26,375 [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-10-25 17:46:28,551 [org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration] 
+
+Using generated security password: 519ac03a-7b65-4043-8ee7-9fcf6f8cd8b8
+ 
+2021-10-25 17:46:28,839 [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] Exposing 13 endpoint(s) beneath base path '/actuator' 
+2021-10-25 17:46:28,888 [org.springframework.security.web.DefaultSecurityFilterChain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4593a18c, org.springframework.security.web.context.SecurityContextPersistenceFilter@68c0bf62, org.springframework.security.web.header.HeaderWriterFilter@6c5bdfc2, org.springframework.web.filter.CorsFilter@77c2fcd4, org.springframework.security.web.csrf.CsrfFilter@661a1f3a, org.springframework.security.web.authentication.logout.LogoutFilter@787d2bd5, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4666512f, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@4b226ad1, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@36693cec, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@d498464, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7dc5355a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7d9799cb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1417d71d, org.springframework.security.web.session.SessionManagementFilter@490dbb01, org.springframework.security.web.access.ExceptionTranslationFilter@1a05b8c5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3c49372e] 
+2021-10-25 17:46:29,067 [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729 
+2021-10-25 17:46:29,147 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path '' 
+2021-10-25 17:46:29,183 [com.ratemanagement.rms.RmsApplication] Started RmsApplication in 15.455 seconds (JVM running for 16.769) 
+2021-10-25 17:47:05,620 [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021-10-25 17:47:05,621 [org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet' 
+2021-10-25 17:47:05,623 [org.springframework.web.servlet.DispatcherServlet] Completed initialization in 2 ms 
+2021-10-25 17:56:12,402 [com.ratemanagement.rms.RmsApplication] Starting RmsApplication using Java 1.8.0_202 on Andre-Ayden with PID 4464 (C:\Users\andreayden\Ramya\rms\target\classes started by andreayden in C:\Users\andreayden\Ramya\rms) 
+2021-10-25 17:56:12,405 [com.ratemanagement.rms.RmsApplication] No active profile set, falling back to default profiles: default 
+2021-10-25 17:56:12,618 [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2021-10-25 17:56:12,618 [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2021-10-25 17:56:16,914 [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-10-25 17:56:17,108 [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 156 ms. Found 1 JPA repository interfaces. 
+2021-10-25 17:56:20,152 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http) 
+2021-10-25 17:56:20,188 [org.apache.catalina.core.StandardService] Starting service [Tomcat] 
+2021-10-25 17:56:20,189 [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.54] 
+2021-10-25 17:56:20,543 [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext 
+2021-10-25 17:56:20,544 [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 7923 ms 
+2021-10-25 17:56:21,202 [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting... 
+2021-10-25 17:56:22,588 [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed. 
+2021-10-25 17:56:22,948 [org.hibernate.jpa.internal.util.LogHelper] HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-10-25 17:56:23,081 [org.hibernate.Version] HHH000412: Hibernate ORM core version 5.4.32.Final 
+2021-10-25 17:56:23,529 [org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2021-10-25 17:56:23,850 [org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect 
+2021-10-25 17:56:25,308 [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-10-25 17:56:25,327 [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-10-25 17:56:26,628 [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-10-25 17:56:29,526 [org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration] 
+
+Using generated security password: 799a451d-0f64-4750-8ee6-b3c580352ae9
+ 
+2021-10-25 17:56:29,871 [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] Exposing 13 endpoint(s) beneath base path '/actuator' 
+2021-10-25 17:56:29,956 [org.springframework.security.web.DefaultSecurityFilterChain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@16ffb9c0, org.springframework.security.web.context.SecurityContextPersistenceFilter@5217fdc7, org.springframework.security.web.header.HeaderWriterFilter@2cf5c035, org.springframework.web.filter.CorsFilter@38b393fe, org.springframework.security.web.csrf.CsrfFilter@5f91f76b, org.springframework.security.web.authentication.logout.LogoutFilter@777ef613, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@50300561, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@5e280ea5, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@119ae8ac, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@653cb8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3a7fcdb5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3f5933e0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6420117a, org.springframework.security.web.session.SessionManagementFilter@19875a70, org.springframework.security.web.access.ExceptionTranslationFilter@4a0d3cf5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@37819d0a] 
+2021-10-25 17:56:30,270 [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729 
+2021-10-25 17:56:30,385 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path '' 
+2021-10-25 17:56:30,434 [com.ratemanagement.rms.RmsApplication] Started RmsApplication in 19.292 seconds (JVM running for 20.976) 
+2021-10-25 17:56:30,571 [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021-10-25 17:56:30,572 [org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet' 
+2021-10-25 17:56:30,575 [org.springframework.web.servlet.DispatcherServlet] Completed initialization in 2 ms 
+2021-10-25 17:57:02,591 [com.ratemanagement.rms.RmsApplication] Starting RmsApplication using Java 1.8.0_202 on Andre-Ayden with PID 21944 (C:\Users\andreayden\Ramya\rms\target\classes started by andreayden in C:\Users\andreayden\Ramya\rms) 
+2021-10-25 17:57:02,593 [com.ratemanagement.rms.RmsApplication] No active profile set, falling back to default profiles: default 
+2021-10-25 17:57:02,776 [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2021-10-25 17:57:02,777 [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2021-10-25 17:57:05,092 [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-10-25 17:57:05,244 [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 128 ms. Found 1 JPA repository interfaces. 
+2021-10-25 17:57:07,696 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http) 
+2021-10-25 17:57:07,718 [org.apache.catalina.core.StandardService] Starting service [Tomcat] 
+2021-10-25 17:57:07,719 [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.54] 
+2021-10-25 17:57:07,986 [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext 
+2021-10-25 17:57:07,986 [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 5208 ms 
+2021-10-25 17:57:08,491 [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting... 
+2021-10-25 17:57:09,854 [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed. 
+2021-10-25 17:57:10,161 [org.hibernate.jpa.internal.util.LogHelper] HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-10-25 17:57:10,387 [org.hibernate.Version] HHH000412: Hibernate ORM core version 5.4.32.Final 
+2021-10-25 17:57:10,757 [org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2021-10-25 17:57:11,084 [org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect 
+2021-10-25 17:57:12,503 [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-10-25 17:57:12,531 [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-10-25 17:57:13,798 [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-10-25 17:57:16,400 [org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration] 
+
+Using generated security password: 42103453-b0c5-4931-8d34-fa16ce6182b4
+ 
+2021-10-25 17:57:16,721 [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] Exposing 13 endpoint(s) beneath base path '/actuator' 
+2021-10-25 17:57:16,779 [org.springframework.security.web.DefaultSecurityFilterChain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@513c5731, org.springframework.security.web.context.SecurityContextPersistenceFilter@7812f9d0, org.springframework.security.web.header.HeaderWriterFilter@7cf69c4c, org.springframework.web.filter.CorsFilter@57b6d3d4, org.springframework.security.web.csrf.CsrfFilter@2f3349d8, org.springframework.security.web.authentication.logout.LogoutFilter@2a422ea6, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6cf941e3, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@268fe827, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@1e22f68c, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@314f125c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@b4699c2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@8a0296a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@180869d, org.springframework.security.web.session.SessionManagementFilter@53dfc905, org.springframework.security.web.access.ExceptionTranslationFilter@4dc081c1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1b95f7e3] 
+2021-10-25 17:57:16,997 [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729 
+2021-10-25 17:57:17,098 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path '' 
+2021-10-25 17:57:17,139 [com.ratemanagement.rms.RmsApplication] Started RmsApplication in 15.495 seconds (JVM running for 16.572) 
+2021-10-25 17:57:28,066 [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021-10-25 17:57:28,067 [org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet' 
+2021-10-25 17:57:28,069 [org.springframework.web.servlet.DispatcherServlet] Completed initialization in 2 ms 
+2021-10-25 17:58:08,079 [com.ratemanagement.rms.RmsApplication] Starting RmsApplication using Java 1.8.0_202 on Andre-Ayden with PID 17448 (C:\Users\andreayden\Ramya\rms\target\classes started by andreayden in C:\Users\andreayden\Ramya\rms) 
+2021-10-25 17:58:08,082 [com.ratemanagement.rms.RmsApplication] No active profile set, falling back to default profiles: default 
+2021-10-25 17:58:08,283 [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2021-10-25 17:58:08,284 [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2021-10-25 17:58:10,675 [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-10-25 17:58:10,817 [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 113 ms. Found 1 JPA repository interfaces. 
+2021-10-25 17:58:12,785 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http) 
+2021-10-25 17:58:12,902 [org.apache.catalina.core.StandardService] Starting service [Tomcat] 
+2021-10-25 17:58:12,904 [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.54] 
+2021-10-25 17:58:13,152 [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext 
+2021-10-25 17:58:13,153 [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 4867 ms 
+2021-10-25 17:58:13,645 [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting... 
+2021-10-25 17:58:14,936 [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed. 
+2021-10-25 17:58:15,256 [org.hibernate.jpa.internal.util.LogHelper] HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-10-25 17:58:15,426 [org.hibernate.Version] HHH000412: Hibernate ORM core version 5.4.32.Final 
+2021-10-25 17:58:15,863 [org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2021-10-25 17:58:16,294 [org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect 
+2021-10-25 17:58:17,888 [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-10-25 17:58:17,911 [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-10-25 17:58:19,283 [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-10-25 17:58:21,566 [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729 
+2021-10-25 17:58:21,579 [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] Exposing 13 endpoint(s) beneath base path '/actuator' 
+2021-10-25 17:58:21,687 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path '' 
+2021-10-25 17:58:21,730 [com.ratemanagement.rms.RmsApplication] Started RmsApplication in 14.792 seconds (JVM running for 16.153) 
+2021-10-25 17:58:42,760 [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021-10-25 17:58:42,760 [org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet' 
+2021-10-25 17:58:42,762 [org.springframework.web.servlet.DispatcherServlet] Completed initialization in 1 ms 
+2021-10-25 18:00:11,774 [com.ratemanagement.rms.RmsApplication] Starting RmsApplication using Java 1.8.0_202 on Andre-Ayden with PID 4968 (C:\Users\andreayden\Ramya\rms\target\classes started by andreayden in C:\Users\andreayden\Ramya\rms) 
+2021-10-25 18:00:11,776 [com.ratemanagement.rms.RmsApplication] No active profile set, falling back to default profiles: default 
+2021-10-25 18:00:11,917 [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2021-10-25 18:00:11,918 [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2021-10-25 18:00:14,073 [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-10-25 18:00:14,208 [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 114 ms. Found 1 JPA repository interfaces. 
+2021-10-25 18:00:16,443 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http) 
+2021-10-25 18:00:16,472 [org.apache.catalina.core.StandardService] Starting service [Tomcat] 
+2021-10-25 18:00:16,473 [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.54] 
+2021-10-25 18:00:16,799 [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext 
+2021-10-25 18:00:16,799 [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 4880 ms 
+2021-10-25 18:00:17,384 [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting... 
+2021-10-25 18:00:18,921 [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed. 
+2021-10-25 18:00:19,344 [org.hibernate.jpa.internal.util.LogHelper] HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-10-25 18:00:19,525 [org.hibernate.Version] HHH000412: Hibernate ORM core version 5.4.32.Final 
+2021-10-25 18:00:19,882 [org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2021-10-25 18:00:20,272 [org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect 
+2021-10-25 18:00:21,805 [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-10-25 18:00:21,826 [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-10-25 18:00:23,002 [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-10-25 18:00:25,134 [org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration] 
+
+Using generated security password: d3c9085e-ab95-4530-9e5c-4e5614322ecd
+ 
+2021-10-25 18:00:25,474 [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] Exposing 13 endpoint(s) beneath base path '/actuator' 
+2021-10-25 18:00:25,532 [org.springframework.security.web.DefaultSecurityFilterChain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2430f3ff, org.springframework.security.web.context.SecurityContextPersistenceFilter@59d2aea0, org.springframework.security.web.header.HeaderWriterFilter@708d1be3, org.springframework.web.filter.CorsFilter@778e1027, org.springframework.security.web.csrf.CsrfFilter@b59a429, org.springframework.security.web.authentication.logout.LogoutFilter@79324be1, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@504d95d, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@4a018173, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@3160e266, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@3d0f74e4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@669ca599, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@20fd9de0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@664d0076, org.springframework.security.web.session.SessionManagementFilter@61e93, org.springframework.security.web.access.ExceptionTranslationFilter@46d3ccf2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@c2c6ad8] 
+2021-10-25 18:00:25,731 [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729 
+2021-10-25 18:00:25,873 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path '' 
+2021-10-25 18:00:25,907 [com.ratemanagement.rms.RmsApplication] Started RmsApplication in 15.043 seconds (JVM running for 16.083) 
+2021-10-25 18:00:47,043 [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021-10-25 18:00:47,043 [org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet' 
+2021-10-25 18:00:47,045 [org.springframework.web.servlet.DispatcherServlet] Completed initialization in 1 ms 
+2021-10-25 18:01:29,372 [com.ratemanagement.rms.RmsApplication] Starting RmsApplication using Java 1.8.0_202 on Andre-Ayden with PID 21152 (C:\Users\andreayden\Ramya\rms\target\classes started by andreayden in C:\Users\andreayden\Ramya\rms) 
+2021-10-25 18:01:29,375 [com.ratemanagement.rms.RmsApplication] No active profile set, falling back to default profiles: default 
+2021-10-25 18:01:29,531 [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2021-10-25 18:01:29,532 [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2021-10-25 18:01:31,851 [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-10-25 18:01:31,981 [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 106 ms. Found 1 JPA repository interfaces. 
+2021-10-25 18:01:33,914 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http) 
+2021-10-25 18:01:33,932 [org.apache.catalina.core.StandardService] Starting service [Tomcat] 
+2021-10-25 18:01:33,932 [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.54] 
+2021-10-25 18:01:34,114 [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext 
+2021-10-25 18:01:34,115 [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 4582 ms 
+2021-10-25 18:01:34,535 [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting... 
+2021-10-25 18:01:35,545 [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed. 
+2021-10-25 18:01:35,828 [org.hibernate.jpa.internal.util.LogHelper] HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-10-25 18:01:35,957 [org.hibernate.Version] HHH000412: Hibernate ORM core version 5.4.32.Final 
+2021-10-25 18:01:36,296 [org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2021-10-25 18:01:36,569 [org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect 
+2021-10-25 18:01:37,648 [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-10-25 18:01:37,662 [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-10-25 18:01:38,513 [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-10-25 18:01:40,513 [org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration] 
+
+Using generated security password: a0aaa991-4796-4331-b3b3-32f90e957d52
+ 
+2021-10-25 18:01:40,812 [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] Exposing 13 endpoint(s) beneath base path '/actuator' 
+2021-10-25 18:01:40,862 [org.springframework.security.web.DefaultSecurityFilterChain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1199c719, org.springframework.security.web.context.SecurityContextPersistenceFilter@2496f3de, org.springframework.security.web.header.HeaderWriterFilter@24094e87, org.springframework.web.filter.CorsFilter@1819adee, org.springframework.security.web.csrf.CsrfFilter@4c78c05a, org.springframework.security.web.authentication.logout.LogoutFilter@3188c729, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7f748f88, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@77e16e22, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@33d25982, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@71db4768, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@66bde838, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2c65ee40, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7390ae6c, org.springframework.security.web.session.SessionManagementFilter@4a74eaad, org.springframework.security.web.access.ExceptionTranslationFilter@57e43099, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@622491b1] 
+2021-10-25 18:01:41,054 [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729 
+2021-10-25 18:01:41,143 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path '' 
+2021-10-25 18:01:41,184 [com.ratemanagement.rms.RmsApplication] Started RmsApplication in 12.716 seconds (JVM running for 13.755) 
+2021-10-25 18:01:49,351 [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021-10-25 18:01:49,351 [org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet' 
+2021-10-25 18:01:49,353 [org.springframework.web.servlet.DispatcherServlet] Completed initialization in 1 ms 
+2021-10-25 18:08:34,314 [com.ratemanagement.rms.RmsApplication] Starting RmsApplication using Java 1.8.0_202 on Andre-Ayden with PID 13428 (C:\Users\andreayden\Ramya\rms\target\classes started by andreayden in C:\Users\andreayden\Ramya\rms) 
+2021-10-25 18:08:34,317 [com.ratemanagement.rms.RmsApplication] No active profile set, falling back to default profiles: default 
+2021-10-25 18:08:34,489 [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2021-10-25 18:08:34,490 [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2021-10-25 18:08:36,673 [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-10-25 18:08:36,811 [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 113 ms. Found 1 JPA repository interfaces. 
+2021-10-25 18:08:38,534 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http) 
+2021-10-25 18:08:38,634 [org.apache.catalina.core.StandardService] Starting service [Tomcat] 
+2021-10-25 18:08:38,635 [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.54] 
+2021-10-25 18:08:38,806 [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext 
+2021-10-25 18:08:38,807 [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 4316 ms 
+2021-10-25 18:08:39,169 [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting... 
+2021-10-25 18:08:40,143 [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed. 
+2021-10-25 18:08:40,403 [org.hibernate.jpa.internal.util.LogHelper] HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-10-25 18:08:40,526 [org.hibernate.Version] HHH000412: Hibernate ORM core version 5.4.32.Final 
+2021-10-25 18:08:40,776 [org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2021-10-25 18:08:41,049 [org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect 
+2021-10-25 18:08:42,085 [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-10-25 18:08:42,099 [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-10-25 18:08:43,010 [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-10-25 18:08:45,090 [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729 
+2021-10-25 18:08:45,107 [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] Exposing 13 endpoint(s) beneath base path '/actuator' 
+2021-10-25 18:08:45,208 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path '' 
+2021-10-25 18:08:45,248 [com.ratemanagement.rms.RmsApplication] Started RmsApplication in 11.825 seconds (JVM running for 12.832) 
+2021-10-25 18:09:28,926 [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021-10-25 18:09:28,926 [org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet' 
+2021-10-25 18:09:28,928 [org.springframework.web.servlet.DispatcherServlet] Completed initialization in 1 ms 
+2021-10-25 18:41:48,605 [com.ratemanagement.rms.RmsApplication] Starting RmsApplication using Java 1.8.0_202 on Andre-Ayden with PID 20768 (C:\Users\andreayden\Ramya\rms\target\classes started by andreayden in C:\Users\andreayden\Ramya\rms) 
+2021-10-25 18:41:48,607 [com.ratemanagement.rms.RmsApplication] No active profile set, falling back to default profiles: default 
+2021-10-25 18:41:48,800 [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2021-10-25 18:41:48,801 [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2021-10-25 18:41:51,045 [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2021-10-25 18:41:51,161 [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 99 ms. Found 1 JPA repository interfaces. 
+2021-10-25 18:41:52,867 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port(s): 8081 (http) 
+2021-10-25 18:41:52,964 [org.apache.catalina.core.StandardService] Starting service [Tomcat] 
+2021-10-25 18:41:52,965 [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/9.0.54] 
+2021-10-25 18:41:53,161 [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext 
+2021-10-25 18:41:53,161 [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 4358 ms 
+2021-10-25 18:41:53,617 [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting... 
+2021-10-25 18:41:54,695 [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed. 
+2021-10-25 18:41:54,966 [org.hibernate.jpa.internal.util.LogHelper] HHH000204: Processing PersistenceUnitInfo [name: default] 
+2021-10-25 18:41:55,118 [org.hibernate.Version] HHH000412: Hibernate ORM core version 5.4.32.Final 
+2021-10-25 18:41:55,415 [org.hibernate.annotations.common.Version] HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2021-10-25 18:41:55,678 [org.hibernate.dialect.Dialect] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect 
+2021-10-25 18:41:56,752 [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2021-10-25 18:41:56,766 [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2021-10-25 18:41:57,679 [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2021-10-25 18:41:59,336 [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] LiveReload server is running on port 35729 
+2021-10-25 18:41:59,351 [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] Exposing 13 endpoint(s) beneath base path '/actuator' 
+2021-10-25 18:41:59,455 [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port(s): 8081 (http) with context path '' 
+2021-10-25 18:41:59,496 [com.ratemanagement.rms.RmsApplication] Started RmsApplication in 12.023 seconds (JVM running for 13.329) 
